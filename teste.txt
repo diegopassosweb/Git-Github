@@ -1,1 +1,26 @@
-TEST GIT
+Comandos:
+
+touch index.html - cria um arquivo html
+
+git init - inicia o repositorio
+
+git status - verifica o status
+
+git add "index.html" - adiciona alteração no diretório ativo
+git add . - para adicionar todos
+
+git config --global user.email "----------"  
+git config --global user.name "----------"
+
+git commit -m "nome do commit" - nomeia as alteraçoes
+
+git push - envia as alteraçoes para o github
+
+git reflog - log de alteraçoes
+
+git reset --hard 28fd871 - volta para a versão 28fd871
+
+
+
+
+
