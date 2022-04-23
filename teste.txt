@@ -33,7 +33,7 @@ git pull = tras atualizaçoes do servidor para sua maquina local
 1. git pull - da branch principal
 2. git branch staging - gerar uma nova branch
 3. trabalhar e adicionar novas funcionalidades na nova branch criada.
-4. Finalizar o trabalho na branch temporaria.
+4. Finalizar o trabalho na branch temporaria
 5. git checkout - na branch principal
 6. git pull
 7. git merge(unir) o codigo da branch temporaria com a branch principal apos testes (estando na principal)
