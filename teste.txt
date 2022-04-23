@@ -2,9 +2,9 @@ Comandos:
 
 touch index.html - cria um arquivo html
 
-git init = inicia o repositorio
+git init = inicializa um novo repositorio
 
-git status = verifica o status
+git status = verifica o status atual dos repositorios git
 
 git add "index.html" = adiciona alteração no diretório ativo
 git add . = para adicionar todos
@@ -12,9 +12,9 @@ git add . = para adicionar todos
 git config --global user.email "----------"  
 git config --global user.name "----------"
 
-git commit -m "nome do commit" = nomeia as alteraçoes
+git commit -m "nome do commit" = cria um novo commit com uma mensagem
 
-git push  = envia as alteraçoes para o github
+git push  = envia atualizaçoes para a nuvem na branch atualmente ativa
 
 git reflog = log de alteraçoes
 
@@ -23,11 +23,16 @@ git reset --hard 28fd871  = volta para a versão 28fd871
 git branch  =  mostra quais branchs disponiveis
 git branch staging  = cria a branch staging
 
-git checkout  staging  = alterar para branch desejada
+git checkout  staging  = permite mudar para a branch staging
 
 git merge staging = (execute um git pull na branch principal antes) puxa alteraçoes da branch staging para atual master
 
 git pull = tras atualizaçoes do servidor para sua maquina local
+
+touch .gitignore - cria o arquivo para listar arquivos ignorados
+
+git rm "nome.txt" = remove arquivo
+
 
 
 1. git pull - da branch principal
