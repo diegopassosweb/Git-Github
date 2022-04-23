@@ -2,25 +2,41 @@ Comandos:
 
 touch index.html - cria um arquivo html
 
-git init - inicia o repositorio
+git init = inicia o repositorio
 
-git status - verifica o status
+git status = verifica o status
 
-git add "index.html" - adiciona alteração no diretório ativo
-git add . - para adicionar todos
+git add "index.html" = adiciona alteração no diretório ativo
+git add . = para adicionar todos
 
 git config --global user.email "----------"  
 git config --global user.name "----------"
 
-git commit -m "nome do commit" - nomeia as alteraçoes
+git commit -m "nome do commit" = nomeia as alteraçoes
 
-git push - envia as alteraçoes para o github
+git push  = envia as alteraçoes para o github
 
-git reflog - log de alteraçoes
+git reflog = log de alteraçoes
 
-git reset --hard 28fd871 - volta para a versão 28fd871
+git reset --hard 28fd871  = volta para a versão 28fd871
+
+git branch  =  mostra quais branchs disponiveis
+git branch staging  = cria a branch staging
+
+git checkout  staging  = alterar para branch desejada
+
+git merge staging = (execute um git pull na branch principal antes) puxa alteraçoes da branch staging para atual master
+
+git pull = tras atualizaçoes do servidor para sua maquina local
 
 
-
+1. git pull - da branch principal
+2. git branch staging - gerar uma nova branch
+3. trabalhar e adicionar novas funcionalidades na nova branch criada.
+4. Finalizar o trabalho na branch temporaria.
+5. git checkout - na branch principal
+6. git pull
+7. git merge(unir) o codigo da branch temporaria com a branch principal apos testes (estando na principal)
+8.git push -  estando na branch principal
 
 
